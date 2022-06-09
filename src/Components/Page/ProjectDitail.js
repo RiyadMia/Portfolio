@@ -7,7 +7,7 @@ const ProjectDitail = () => {
         <h1 className="text-3xl font-bold text-primary ">
           Electric-Parts Wearhouse
         </h1>
-        <button class="btn btn-secondary mt-5 mb-5  ">
+        <button className="mt-5 mb-5 btn btn-secondary ">
           <a href="https://electric-parts.web.app/">Live Link</a>
         </button>
       </div>

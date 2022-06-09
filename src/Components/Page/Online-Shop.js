@@ -7,7 +7,7 @@ const Online = () => {
         <h1 className="text-3xl font-bold text-primary ">
           Mobile Shop Wearhouse
         </h1>
-        <button class="btn btn-secondary mt-5 mb-5  ">
+        <button className="btn btn-secondary mt-5 mb-5  ">
           <a href="https://acinment-11.web.app/">Live Link</a>
         </button>
       </div>

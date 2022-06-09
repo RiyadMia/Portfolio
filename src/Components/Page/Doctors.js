@@ -5,7 +5,7 @@ const Doctors = () => {
     <div className="my-16 text-white mx-28">
       <div className="mt-6 text-center">
         <h1 className="text-3xl font-bold text-primary ">Doctors-Portal</h1>
-        <button class="btn btn-secondary mt-5 mb-5  ">
+        <button className="btn btn-secondary mt-5 mb-5  ">
           <a href="https://acinment-1afa0.web.app/">Live Link</a>
         </button>
       </div>

@@ -9,17 +9,17 @@ const Projects = () => {
         Featured Projects
       </h1>
       <div className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        <div class="card w-96 bg-base-100 shadow-xl">
-          <figure class="px-10 pt-10">
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure className="px-10 pt-10">
             <img
               style={{ height: "200px" }}
               src="https://www.pinclipart.com/picdir/big/336-3367768_electro-mechanical-technological-know-how-in-mechanical-animation.png"
               alt="Shoes"
-              class="rounded-xl"
+              className="rounded-xl"
             />
           </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title text-orange-600 font-bold">
+          <div className="card-body items-center text-center">
+            <h2 className="card-title text-orange-600 font-bold">
               Electric-Parts !
             </h2>
             <p>
@@ -27,50 +27,53 @@ const Projects = () => {
               year, to provide you: A Quick Response. By a Trained Technician.
               With the Right Parts.
             </p>
-            <div class="card-actions">
+            <div className="card-actions">
               <Link to="/ditals">
-                <button class="btn btn-primary">More Details</button>
+                <button className="btn btn-primary">More Details</button>
               </Link>
             </div>
           </div>
         </div>
-        <div class="card w-96 bg-base-100 shadow-xl">
-          <figure class="px-10 pt-10">
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure className="px-10 pt-10">
             <img
               src="https://media.istockphoto.com/vectors/patients-people-in-doctors-waiting-room-vector-illustration-cartoon-vector-id1256197663"
               alt="Shoes"
-              class="rounded-xl"
+              className="rounded-xl"
             />
           </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title text-orange-600 font-bold">
+          <div className="card-body items-center text-center">
+            <h2 className="card-title text-orange-600 font-bold">
               Doctor Service !
             </h2>
             <p>
               Find your Doctor! Get Telemedicine and Doctor Video Consultation
               service with thousands of Doctors and Hospitals in Bangladesh{" "}
             </p>
-            <div class="card-actions">
+            <div className="card-actions">
               <Link to="/doctor">
-                <button class="btn btn-primary">More Details</button>
+                <button className="btn btn-primary">More Details</button>
               </Link>
             </div>
           </div>
         </div>
-        <div class="card w-96 bg-base-100 shadow-xl">
-          <figure class="px-10 pt-10">
-            <img src={mobile} alt="Shoes" class="rounded-xl" />
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure className="px-10 pt-10">
+            <img src={mobile} alt="Shoes" className="rounded-xl" />
           </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title text-orange-600 font-bold"> Mobile Shop !</h2>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title text-orange-600 font-bold">
+              {" "}
+              Mobile Shop !
+            </h2>
             <p>
               Trusted online shop in Bangladesh for genuine mobile, computer,
               perfume, watch, electronics & appliances. 0% interest on EMI. 3
               Days Return. Happy shopping
             </p>
-            <div class="card-actions">
+            <div className="card-actions">
               <Link to="/online">
-                <button class="btn btn-primary">More Details </button>
+                <button className="btn btn-primary">More Details </button>
               </Link>
             </div>
           </div>
