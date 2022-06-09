@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="mx-16 my-16">
+    <div className="my-16 ">
       <h1 className="mt-5 mb-5 text-3xl font-bold text-center text-orange-700 ">
         Featured Projects
       </h1>
       <div className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="shadow-xl card w-96 bg-base-100">
           <figure className="px-10 pt-10">
             <img
               style={{ height: "200px" }}
@@ -18,8 +18,8 @@ const Projects = () => {
               className="rounded-xl"
             />
           </figure>
-          <div className="card-body items-center text-center">
-            <h2 className="card-title text-orange-600 font-bold">
+          <div className="items-center text-center card-body">
+            <h2 className="font-bold text-orange-600 card-title">
               Electric-Parts !
             </h2>
             <p>
@@ -34,7 +34,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="shadow-xl card w-96 bg-base-100">
           <figure className="px-10 pt-10">
             <img
               src="https://media.istockphoto.com/vectors/patients-people-in-doctors-waiting-room-vector-illustration-cartoon-vector-id1256197663"
@@ -42,8 +42,8 @@ const Projects = () => {
               className="rounded-xl"
             />
           </figure>
-          <div className="card-body items-center text-center">
-            <h2 className="card-title text-orange-600 font-bold">
+          <div className="items-center text-center card-body">
+            <h2 className="font-bold text-orange-600 card-title">
               Doctor Service !
             </h2>
             <p>
@@ -57,12 +57,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="shadow-xl card w-96 bg-base-100">
           <figure className="px-10 pt-10">
             <img src={mobile} alt="Shoes" className="rounded-xl" />
           </figure>
-          <div className="card-body items-center text-center">
-            <h2 className="card-title text-orange-600 font-bold">
+          <div className="items-center text-center card-body">
+            <h2 className="font-bold text-orange-600 card-title">
               {" "}
               Mobile Shop !
             </h2>
